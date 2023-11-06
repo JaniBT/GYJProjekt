@@ -1,0 +1,35 @@
+body{
+    background-image: url(green.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-color: lightgreen;
+}
+
+body color:visited {
+    color: green;
+}
+body color:active {
+    color: darkred;
+}
+
+div{
+    text-align: center;
+    width: 600px;
+}
+
+h1, h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+table{
+    border: 5px;
+    border-spacing: 2px;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+p{
+    text-align: center;
+}
