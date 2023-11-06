@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
 body{
     background-image: url(./Képek/green.jpg);
     background-attachment: fixed;
@@ -11,6 +14,15 @@ body color:visited {
 }
 body color:active {
     color: darkred;
+}
+
+header{
+    font-family: 'Bebas Neue';
+
+}
+
+nav{
+    
 }
 
 div{
