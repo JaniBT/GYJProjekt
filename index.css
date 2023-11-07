@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+body{
+    background-image: url(./Képek/green.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-color: lightgreen;
+    font-family: Bebas Neue, sans serif;
+}
+
+header{
+    display: flex;
+    font-family: Bebas Neue, sans-serif;
+    text-align: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: aquamarine;
+    align-items: center;
+}
+
+ul{
+    margin: 0;
+    text-align: right;
+}
+
+li{
+    display: inline;
+    margin: 0 10px;
+    font-size: larger;
+}
+
+a:hover{
+    color: brown;
+    text-decoration: none;
+}
+
+#fofocim{
+    font-family: Bebas Neue, sans-serif;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    font-size: 30px;
+}
+
+li{
+    list-style: none;
+}
+
+h2{
+    padding-top: 20px;
+}
+
+#szekcio{
+    font-family: Bebas Neue, sans serif;
+    font-size: larger;
+    font-weight: bolder;
+    padding-top: 100px;
+    text-align: center;
+    align-items: center;
+}
+
+ul{
+    text-decoration: none;
+    align-items: end;
+}
+
+li a{
+    color: black;
+}
+
+p{
+    text-align: center;
+}
+
+img{
+    width: 300px;
+}
+
+#lohere{
+    width: 55px;
+}
+
+#focim{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-size: 70px;
+}
