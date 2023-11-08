@@ -16,23 +16,25 @@ header {
     align-items: center;
 }
 
-.navigation ul {
-    list-style: none;
+ul {
+    margin: 0;
     text-align: right;
 }
 
-.navigation li {
+li {
     display: inline;
     margin: 0 10px;
+    font-size: larger;
 }
 
-.navigation a {
+a {
     text-decoration: none;
     color: #fff;
 }
 
-.navigation a:hover {
+a:hover {
     color: red;
+    text-decoration: none;
 }
 
 #szekcio{

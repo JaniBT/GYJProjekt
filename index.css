@@ -16,19 +16,27 @@ header{
     text-align: center;
     justify-content: space-between;
     padding: 10px;
-    background-color: aquamarine;
+    background-color: #294;
     align-items: center;
+    color: #fff;
 }
 
 ul{
     margin: 0;
     text-align: right;
+    color: #fff;
 }
 
 li{
     display: inline;
     margin: 0 10px;
     font-size: larger;
+    color: #fff;
+    list-style: none;
+}
+
+li a{
+    color: #fff;
 }
 
 a:hover{
@@ -42,10 +50,6 @@ a:hover{
     padding: 0;
     margin: 0;
     font-size: 30px;
-}
-
-li{
-    list-style: none;
 }
 
 h2{
@@ -69,10 +73,6 @@ section{
 ul{
     text-decoration: none;
     align-items: end;
-}
-
-li a{
-    color: black;
 }
 
 p{
