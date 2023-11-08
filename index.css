@@ -56,9 +56,14 @@ h2{
     font-family: Bebas Neue, sans serif;
     font-size: larger;
     font-weight: bolder;
-    padding-top: 100px;
+    padding-top: 20px;
     text-align: center;
     align-items: center;
+}
+
+section{
+    display: inline-block;
+    padding: 30px;
 }
 
 ul{
@@ -87,4 +92,16 @@ img{
     margin: 0;
     text-align: center;
     font-size: 70px;
+}
+
+footer{
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    padding: 10px;
+    background-color: black;
+    color: #fff;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
 }
