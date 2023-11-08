@@ -9,23 +9,15 @@ body {
 header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    text-align: center;
     background-color: #294;
     color: #fff;
     padding: 10px;
-}
-
-.title {
-    margin: 0;
-    padding: 0;
-    text-align: left;
-
+    align-items: center;
 }
 
 .navigation ul {
     list-style: none;
-    margin: 0;
-    padding: 0;
     text-align: right;
 }
 
@@ -39,6 +31,43 @@ header {
     color: #fff;
 }
 
+.navigation a:hover {
+    color: red;
+}
+
 #szekcio{
     padding-top: 100px;
+    text-align: center;
+    width: 100%;
+}
+
+#kep{
+    width: 100%;
+    border-radius: 15px;
+    border-color: black;
+    border-style: groove;
+}
+
+#szoveg{
+    padding-top: 50px;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+}
+
+#lohere{
+    width: 20px;
+}
+
+#fofocim{
+    font-size: medium;
+    padding: 10px;
+    background-color: black;
+    color: #fff;
+}
+
+footer{
+    position: fixed;
+    width: 100%;
+    align-items: center;
 }
